@@ -8,10 +8,8 @@ Proyek Basis Data: Perancangan Fisik &amp; Implementasi SQL untuk sistem Brand N
 - Fadillah Handayani (M0401241017)
 
 # Struktur file (brand-nyamhap-db-project)
-|
 ├── README.md                
-├── rancangan_fisik.md        
-├── notes.md                  
+├── rancangan_fisik.md                         
 ├── sql/                      
 │   ├── nyamhap_schema.sql    
 │   ├── nyamhap_data.sql      
