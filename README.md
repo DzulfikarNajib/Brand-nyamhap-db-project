@@ -10,6 +10,7 @@ Proyek Basis Data: Perancangan Fisik &amp; Implementasi SQL untuk sistem Brand N
 # Struktur file
 brand-nyamhap-db-project/
 │
+|
 ├── README.md                
 ├── rancangan_fisik.md        
 ├── notes.md                  
