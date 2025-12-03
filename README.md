@@ -8,18 +8,16 @@ Proyek Basis Data: Perancangan Fisik &amp; Implementasi SQL untuk sistem Brand N
 - Fadillah Handayani (M0401241017)
 
 # Struktur file (brand-nyamhap-db-project)
-├── README.md                
-├── rancangan_fisik.md                         
-├── sql/                      
-│   ├── nyamhap_schema.sql    
-│   ├── nyamhap_data.sql      
-│   └── mission_objectives.sql 
-│
-├── laporan/                  
-│   └── ProyekTeam7.pdf
-│
-└── docs/                     
-    └── ERD.png               
+1. README.md              
+2. rancangan_fisik.md        → Rancangan fisik database (atribut, tipe data, constraints)
+3. sql/                        
+   3a. nyamhap_schema.sql      → Script CREATE TABLE (schema database)
+   3b. nyamhap_data.sql        → Script INSERT dummy data
+   3c. mission_objectives.sql  → Script query mission objectives
+4. laporan/                  
+   4a. ProyekTeam7.pdf       
+5. docs/                     
+   5a. ERD.png               → Diagram ERD (Entity Relationship Diagram)            
 
 # Cara Menjalankan
 1. Import `nyamhap_schema.sql` ke PostgreSQL.
