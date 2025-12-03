@@ -7,9 +7,7 @@ Proyek Basis Data: Perancangan Fisik &amp; Implementasi SQL untuk sistem Brand N
 - Fido Ahmad Amirza Rifqi (M0401241115)
 - Fadillah Handayani (M0401241017)
 
-# Struktur file
-brand-nyamhap-db-project/
-│
+# Struktur file (brand-nyamhap-db-project)
 |
 ├── README.md                
 ├── rancangan_fisik.md        
