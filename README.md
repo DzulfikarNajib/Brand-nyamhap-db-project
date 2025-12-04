@@ -1,4 +1,4 @@
-# brand-nyamhap-db-project-
+# Brand-nyamhap-db-project-
 Proyek Basis Data: Perancangan Fisik &amp; Implementasi SQL untuk sistem Brand NyamHap. Berisi rancangan tabel, constraint, dummy data, serta query mission objectives menggunakan PostgreSQL.
 
 # Team 7
@@ -13,10 +13,8 @@ Proyek Basis Data: Perancangan Fisik &amp; Implementasi SQL untuk sistem Brand N
 3. sql/                        
 - nyamhap_schema.sql      → Script CREATE TABLE (schema database)
 - nyamhap_data.sql        → Script INSERT dummy data
-- mission_objectives.sql  → Script query mission objectives
-4. laporan/                  
-- ProyekTeam7.pdf       
-5. docs/                     
+- mission_objectives.sql  → Script query mission objectives      
+4. docs/                     
 - ERD.png                 → Diagram ERD (Entity Relationship Diagram)            
 
 # Cara Menjalankan
