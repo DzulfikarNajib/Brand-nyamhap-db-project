@@ -15,7 +15,7 @@ Proyek Basis Data: Perancangan Fisik &amp; Implementasi SQL untuk sistem Brand N
 - nyamhap_data.sql        → Script INSERT dummy data
 - mission_objectives.sql  → Script query mission objectives      
 4. docs/                     
-- ERD.png                 → Diagram ERD (Entity Relationship Diagram)            
+- ERD.text                 → Diagram ERD (Entity Relationship Diagram)            
 
 # Cara Menjalankan
 1. Import `nyamhap_schema.sql` ke PostgreSQL.
