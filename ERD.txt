@@ -1,0 +1,106 @@
+Entity Relationship Diagram – Brand NyamHap
+Berikut adalah struktur entitas dan relasi sistem basis data Brand NyamHap:
+
+# Entitas dan Atribut
+
+# 1. Staff
+- **PK**: StaffID  
+- Nama  
+- NoHandphone  
+- Email  
+- PasswordHash  
+- RoleKode
+
+# 2. Staff Keuangan
+- **PK/FK**: StaffID → Staff  
+- JenisTransaksi  
+- TanggalTransaksi
+
+# 3. Staff Penjualan
+- **PK/FK**: StaffID → Staff  
+- TargetPenjualan  
+- JumlahPenjualan  
+- WilayahPenjualan
+
+# 4. Staff Produksi
+- **PK/FK**: StaffID → Staff  
+- JumlahProduksi
+
+# 5. Staff Pemasok
+- **PK/FK**: StaffID → Staff  
+- JenisBarang  
+- TanggalPasokan  
+- MetodePembayaran
+
+# 6. Staff Marketing
+- **PK/FK**: StaffID → Staff  
+- JenisKampanye  
+- Budget
+
+# 7. Pelanggan
+- **PK**: PelangganID  
+- Nama  
+- NoHandphone
+
+# 8. Pesanan
+- **PK**: PesananID  
+- **FK**: PelangganID → Pelanggan  
+- Tanggal  
+- TotalHarga
+
+# 9. Detail Pesanan
+- **PK**: (PesananID, MenuID)  
+- **FK**: PesananID → Pesanan  
+- **FK**: MenuID → Menu  
+- PilihanMenu  
+- JumlahMenu
+
+# 10. Menu
+- **PK**: MenuID  
+- NamaMenu  
+- Harga  
+- Deskripsi
+
+# 11. Resep
+- **PK**: (MenuID, BahanID)  
+- **FK**: MenuID → Menu  
+- **FK**: BahanID → BahanBaku  
+- JumlahBahan
+
+# 12. Bahan Baku
+- **PK**: BahanID  
+- NamaBahan  
+- Satuan  
+- Stok  
+- HargaPerUnit
+
+# 13. Pembayaran
+- **PK**: PembayaranID  
+- **FK**: PesananID → Pesanan  
+- TanggalPembayaran  
+- MetodePembayaran  
+- StatusPembayaran
+
+# 14. Periklanan
+- **PK**: PeriklananID  
+- **FK**: StaffID → Staff  
+- MediaPeriklanan  
+- TanggalMulai  
+- TanggalSelesai  
+- Biaya
+
+---
+
+# Relasi Antar Entitas
+
+- **Pelanggan** → "Membuat" → Pesanan  
+- **Pesanan** → "Melunasi" → Pembayaran  
+- **Staff Keuangan** → "Mencatat" → Pembayaran  
+- **Staff Produksi** → "Menyiapkan" → Menu  
+- **Menu** → "Berisi" → Detail Pesanan  
+- **Menu** → "Memiliki" → Resep  
+- **Resep** → "Menggunakan" → Bahan Baku  
+- **Staff Pemasok** → "Menyediakan" → Bahan Baku  
+- **Staff Marketing** → "Membuat" → Periklanan  
+- **Pembayaran** → "Mengelola" → Pesanan  
+
