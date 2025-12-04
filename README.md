@@ -57,4 +57,4 @@ C. Pelaporan Data
 - Dummy data: untuk simulasi operasional sistem.
 
 # Refence
-Modul Praktikum Basis Data IPB Semester Ganjil 2025/2026
+Modul Praoyek Basis Data IPB Semester Ganjil 2025/2026
