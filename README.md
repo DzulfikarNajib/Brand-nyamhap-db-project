@@ -55,3 +55,6 @@ C. Pelaporan Data
 - Implementasi SQL: CREATE, INSERT, UPDATE, dengan constraint lengkap.
 - Mission objectives: query untuk pencarian, pelacakan, dan pelaporan data.
 - Dummy data: untuk simulasi operasional sistem.
+
+# Refence
+Modul Praktikum Basis Data IPB Semester Ganjil 2025/2026
